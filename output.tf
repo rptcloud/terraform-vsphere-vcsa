@@ -1,21 +1,21 @@
 output "vcenter_hostname" {
-  value       = var.vcbuild_vchostname
+  value       = module.vcbuild.vcenter_hostname
   description = "The vCenter Hostname is:"
 }
 output "vcenter_ip_address" {
-  value       = var.vcbuild_vcip
+  value       = module.vcbuild.vcenter_ip_address
   description = "The vCenter Management IP Address is:"
 }
 output "vcenter_username" {
-  value       = "administrator@${var.vcbuild_sso_domain_name}"
+  value       = module.vcbuild.vcenter_username
   description = "The vCenter SSO username is:"
 }
 output "vcenter_password" {
-  value       = var.vcbuild_vcssopassword
+  value       = module.vcbuild.vcenter_password
   description = "The vCenter SSO password is:"
 }
 output "vcenter_rootpassword" {
-  value       = var.vcbuild_vcrootpassword
+  value       = module.vcbuild.vcenter_rootpassword
   sensitive   = true
   description = "The vCenter root password is:"
 }
