@@ -23,5 +23,16 @@ module "vcbuild" {
   vcbuild_ceip_enabled       = var.vcbuild_ceip_enabled
 }
 # module "vcconfig" {
-#    source = "./modules/vcconfig"
-#    }
+#   source = "./modules/vcconfig"
+#   providers = {
+#     vsphere = vsphere.vcnew
+#   }
+#   depends_on                    = [module.vcbuild]
+#   vcconfig_compute_cluster_name = var.vcconfig_compute_cluster_name
+#   vcconfig_datacenter           = var.vcconfig_datacenter
+#   vcbuild_vcssopassword         = var.vcbuild_vcssopassword
+#   vcbuild_vcip                  = var.vcbuild_vcip
+# }
+#  output "vc_ipaddress" {
+#    value = module.vcbuild.vcenter_ip_address
+#  }

@@ -90,3 +90,12 @@ variable "vcbuild_ceip_enabled" {
   description = "Join VMware Customer Experience Program? 'true' or 'false' "
   default     = false
 }
+
+# variable "vcconfig_datacenter" {
+#   default = "tf-dc"
+# }
+
+# variable "vcconfig_compute_cluster_name" {
+#   description = "Set the name for the new compute cluster"
+#   default     = "tf-compute-cluster"
+# }

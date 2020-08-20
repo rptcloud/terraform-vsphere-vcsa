@@ -32,3 +32,19 @@ resource "null_resource" "vc" {
     command = "/home/runner/vcenter/vcsa-cli-installer/lin64/vcsa-deploy install --accept-eula --acknowledge-ceip --no-ssl-certificate-verification --verbose /home/runner/vctemplate.json"
   }
 }
+# data "vsphere_datacenter" "datacenter" {
+#   name = "Datacenter"
+# }
+# data "vsphere_virtual_machine" "newvcserver" {
+#   depends_on    = [null_resource.vc]
+#   name          = "tfvcenter01"
+#   datacenter_id = data.vsphere_datacenter.datacenter.id
+# }
+# provider "vsphere" {
+#   user           = "administrator@vsphere.local"
+#   password       = "RPTpass123!"
+#   vsphere_server = "192.168.169.35"
+
+#   # If you have a self-signed cert
+#   allow_unverified_ssl = true
+# }
