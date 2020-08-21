@@ -1,4 +1,4 @@
-[![Maintained by River Point Technology](https://img.shields.io/badge/maintained%20by-River%20Point%20Technology-%235849a6.svg)](https://gruntwork.io/?ref=repo_aws_vault)
+[![Maintained by River Point Technology](https://img.shields.io/badge/maintained%20by-River%20Point%20Technology-%235849a6.svg)](https://www.riverpointtechnology.com)
 # VMware VCSA Module
 
 This repo contains a set of modules for deploying a [VMware VCSA](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vcsa.doc/GUID-223C2821-BD98-4C7A-936B-7DBE96291BA4.html) virtual center on a
@@ -8,7 +8,7 @@ The vCenter Server Appliance is a preconfigured Linux virtual machine, which is 
 
 This Module uses the [VMware VCSA](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/vCenter/vmw-datasheetvcenter.pdf) as a deployment artifact.
 
-![Nested ESXi architecture](images/vcsa.jpg)
+![Nested ESXi architecture](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/vcenter-server/_jcr_content/parcontainer/image.img.jpg/1592480720032.jpg)
 
 
 ## How do you use this Module?
